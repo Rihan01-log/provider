@@ -6,8 +6,6 @@ class Sumtest extends ChangeNotifier {
   int sum = 0;
 
   void addSum(String num1, String num2) {
-    
-
     aa = int.parse(num1);
     b = int.parse(num2);
     sum = aa + b;
